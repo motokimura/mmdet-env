@@ -12,9 +12,6 @@
 
 ```bash
 docker compose build dev
-```
-
-```bash
 docker compose run dev
 ```
 
