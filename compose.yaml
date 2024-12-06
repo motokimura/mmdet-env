@@ -1,0 +1,8 @@
+services:
+  dev:
+    runtime: nvidia
+    build: .
+    tty: true
+    volumes:
+      - $HOME/data:/mmdetection/data
+    ipc: host
